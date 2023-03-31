@@ -1,0 +1,739 @@
+{"profile":[
+  {
+    "id":1,
+    "role": "admin",
+    "menus": [
+       { "label": "Doc","sousLabel":["Consulter doc" , "Modifier doc" ] },
+      { "label": "Ticket","sousLabel" : ["Consulter Ticket" , "Creer ticket","Assigner ticket a","Cloturer ticket"] },
+      { "label": "Gestion des utilisateurs", "sousLabel" : ["Consulter les clients" , "Consulter les experts","Consulter les menagers"] }
+      
+    ]
+  },
+  {
+    "id":2,
+    "role": "utilisateur",
+    "menus": [
+       { "label": "Doc","sousLabel":["Consulter doc" ] },
+      { "label": "Ticket","sousLabel" : ["Consulter Ticket" ,"Creer ticket", "Cloturer ticket"] },
+      { "label": "Gestion du compte", "sousLabel" : ["Modifier le mot de passe" , "mise a jour les données personnelles"] }
+    ]
+  }
+],"compte":[
+{
+  "id": 1,
+  "nom": "client1",
+  "prenom": "client1",
+  "email":"clien1@gmail",
+  "role":"client",
+  "password": "123456"
+},
+{
+  "id": 2,
+  "nom": "client2",
+  "prenom": "client2",
+  "email":"client2@gmail",
+  "role":"client",
+  "password": "123456"
+},
+{
+  "id": 3,
+  "nom": "expert1",
+  "prenom": "expert1",
+  "email":"expert1@gmail",
+  "role":"expert",
+  "password": "123456"
+},
+{
+  "id": 4,
+  "nom": "expert2",
+  "prenom": "expert2",
+  "email":"expert2@gmail",
+  "role":"expert",
+  "password": "123456"
+},
+{
+  "id": 5,
+  "nom": "manager1",
+  "prenom": "manager1",
+  "email":"manager1@gmail",
+  "role":"manager",
+  "password": "123456"
+},
+{
+  "id": 6,
+  "nom": "manager2",
+  "prenom": "manager2",
+  "email":"manager2@gmail",
+  "role":"manager",
+  "password": "123456"
+},
+{
+  "id": 7,
+  "nom": "client3",
+  "prenom": "client3",
+  "email": "client3@gmail",
+  "role": "client",
+  "password": "123456"
+},
+{
+  "id": 8,
+  "nom": "client4",
+  "prenom": "client4",
+  "email": "client4@gmail",
+  "role": "client",
+  "password": "123456"
+},
+{
+  "id": 9,
+  "nom": "expert3",
+  "prenom": "expert3",
+  "email": "expert3@gmail",
+  "role": "expert",
+  "password": "123456"
+},
+{
+  "id": 10,
+  "nom": "expert4",
+  "prenom": "expert4",
+  "email": "expert4@gmail",
+  "role": "expert",
+  "password": "123456"
+},
+{
+  "id": 11,
+  "nom": "manager3",
+  "prenom": "manager3",
+  "email": "manager3@gmail",
+  "role": "manager",
+  "password": "123456"
+},
+{
+  "id": 12,
+  "nom": "manager4",
+  "prenom": "manager4",
+  "email": "manager4@gmail",
+  "role": "manager",
+  "password": "123456"
+},
+{
+  "id": 13,
+  "nom": "client5",
+  "prenom": "client5",
+  "email": "client5@gmail",
+  "role": "client",
+  "password": "123456"
+},{
+"id": 14,
+"nom": "client6",
+"prenom": "client6",
+"email": "client6@gmail",
+"role": "client",
+"password": "123456"
+},
+{
+"id": 15,
+"nom": "expert5",
+"prenom": "expert5",
+"email": "expert5@gmail",
+"role": "expert",
+"password":"12345"},
+{
+  "id": 16,
+  "nom": "manager5",
+  "prenom": "manager5",
+  "email": "manager5@gmail",
+  "role": "manager",
+  "password":"12345"},
+  {
+    "id": 17,
+    "nom": "expert6",
+    "prenom": "expert6",
+    "email": "expert6@gmail",
+    "role": "expert",
+    "password":"12345"},
+    {
+      "id": 18,
+      "nom": "manager6",
+  "prenom": "manager6",
+  "email": "manager6@gmail",
+  "role": "manager",
+      "password":"12345"}
+],
+  "article": [
+    {
+      "id": 1,
+      "titre": "article 1",
+      "ref": "2222",
+      "date_publication": "12/2/2021",
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": [1, 3, 4]
+    },
+    {
+      "id": 2,
+      "titre": "article 2",
+      "ref": "2222",
+      "date": "12/2/2021",
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": [1, 2, 4]
+    },
+    {
+      "id": 3,
+      "titre": "article 3",
+      "ref": "2222",
+      "date": "12/2/2021",
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": [2,3]
+    },
+    {
+      "id": 4,
+      "titre": "article 4",
+      "ref": "2222",
+      "date_publication": "12/2/2021",
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": [4]
+    },
+    {
+      "id": 5,
+      "titre": "douane fiscal",
+      "ref": "2222",
+      "date_publication": "12/2/2021",
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": [2]
+    },
+    {
+      "id": 6,
+      "titre": "decrets social",
+      "ref": "2222",
+      "date": "12/2/2021",
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": [1]
+    },
+    {
+      "id": 7,
+      "titre": "arretés juridique",
+      "ref": "2222",
+      "date_publication": "12/2/2021",
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": [3]
+    },
+    {
+      "id": 8,
+      "titre": "décrets juridique",
+      "ref": "2222",
+      "date_publication": "12/2/2021",
+      "abstract": "No matter how far along you are in your sophistication as an amateur astronomer, there is always one.",
+      "tags": [1, 3, 4]
+    }
+  ],
+  "tags": [
+    { "id": 1, "name": "Tag 1" },
+    { "id": 2, "name": "Tag 2" },
+    { "id": 3, "name": "Tag 3" },
+    { "id": 4, "name": "Tag 4" }
+  ],
+  "themes": [
+    {
+      "id": 1,
+      "nom": "Droit commercial",
+      "description": "de la base",
+      "url": "assets/img/juridique1.jpg",
+      "font": "fa fa-balance-scale fa-4x text-primary mb-4"
+    },
+    {
+      "id": 2,
+      "nom": "Société commerciale",
+      "description": "de la base",
+      "url": "assets/img/social.jpg",
+      "font": "fa fa-users fa-4x text-primary mb-4"
+    },
+    {
+      "id": 3,
+      "nom": "Droits civils",
+      "description": "de la base",
+      "url": "assets/img/legislation.jpg",
+      "font": "fa fa-balance-scale fa-4x"
+    },
+    {
+      "id": 4,
+      "nom": "Statut personnel",
+      "description": "de la base",
+      "url": "assets/img/sante.jpg",
+      "font": ""
+    },
+    {
+      "id": 5,
+      "nom": "Arbitrage",
+      "description": "de la base",
+      "url": "assets/img/droit-homme.png",
+      "font": "fa fa-balance-scale fa-4x"
+    },
+    {
+      "id": 6,
+      "nom": "Droit pénal",
+      "description": "de la base",
+      "url": "assets/img/finance1.png",
+      "font": "fa fa-university  fa-4x text-primary mb-4"
+    },
+    {
+      "id": 7,
+      "nom": "fiscal",
+      "description": "de la base",
+      "url": "assets/img/foncier.jpg",
+      "font": "fa fa-balance-scale fa-4x"
+    },
+    {
+      "id": 8,
+      "nom": "Droit international privé",
+      "description": "de la base",
+      "url": "assets/img/investissement.jpg",
+      "font": "fa fa-balance-scale fa-4x"
+    }
+  ],
+  "abonnement": [
+    {
+      "id": 1,
+      "nom": "Diamond",
+      "duree": "un mois",
+      "nbre_question": 5,
+      "solde": 100,
+      "url": "assets/img/diamond.png"
+    },
+    {
+      "id": 2,
+      "nom": "Platinium",
+      "duree": "un mois",
+      "nbre_question": 7,
+      "solde": 120,
+      "url": "assets/img/platinim.jpg"
+    },
+    {
+      "id": 3,
+      "nom": "GOLD",
+      "duree": "un mois",
+      "nbre_question": 5,
+      "solde": 100,
+      "url": "assets/img/gold.png"
+    },
+    {
+      "id": 4,
+      "nom": "Silver",
+      "duree": "un mois",
+      "nbre_question": 8,
+      "solde": 150,
+      "url": "assets/img/silver.png"
+    },
+    {
+      "id": 5,
+      "nom": "Bronze",
+      "duree": "un mois",
+      "nbre_question": 7,
+      "solde": 120,
+      "url": "assets/img/bronze.jpg"
+    },
+    {
+      "id": 6,
+      "nom": "Bronze",
+      "duree": "un mois",
+      "nbre_question": 7,
+      "solde": 120,
+      "url": "assets/img/bronze.jpg"
+    }
+  ],
+  "utilisateur": [
+    {
+      "id": 1,
+      "firstname": "Mr Akram",
+      "lastname": "ddd",
+      "birthdate": "",
+      "profile": "assets/img/testimonial-1.jpg",
+      "job":"profession",
+      "message":"Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+    },
+    {
+      "id": 2,
+      "firstname": "Mr Yessine",
+      "lastname": "",
+      "birthdate": "",
+      "profile": "assets/img/testimonial-2.jpg",
+      "job":"profession",
+      "message":"Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+    },
+    {
+      "id": 3,
+      "firstname": "Mr Salmen",
+      "lastname": "AAA",
+      "birthdate": "",
+      "profile": "assets/img/testimonial-3.jpg",
+      "job":"profession",
+      "message":"Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+    },
+    {
+      "id": 4,
+      "firstname": "Mme Hazar",
+      "lastname": "BBB",
+      "birthdate": "",
+      "profile": "assets/img/testimonial-4.jpg",
+      "job":"profession",
+      "message":"Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+    }
+  ],
+  "partenaires": [
+    {
+      "id": 1,
+      "nom": "zitouna",
+      "url": "assets/img/team-1.jpg"
+    },
+    {
+      "id": 2,
+      "nom": "TT",
+      "url": "assets/img/team-2.jpg"
+    },
+    {
+      "id": 3,
+      "nom": "AA",
+      "url": "assets/img/team-3.jpg"
+    },
+    {
+      "id": 4,
+      "nom": "SS",
+      "url": "assets/img/team-4.jpg"
+    }
+  ],
+ 
+  "document": [
+      {
+        "id":"1",
+        "nom": "Article1",
+        "category": "juridique",
+        "type": "loi",
+        "theme":"loi",
+        "date":"12/11/2023"
+      },
+      {
+        "id":"2",
+        "nom": "Article2",
+        "category": "fiscal",
+        "type": "loi",
+        "theme":"loi",
+        "date":"12/11/2023"
+      }
+    ],
+    "ticket": [
+      {
+        "id":1,
+        "nom": "Ticket1",
+        "priority": "normale",
+        "category": "juridique",
+        "date":"12/11/2023"
+      },
+      {
+        "id":2,
+        "nom": "Ticket2",
+        "priority": "urgent",
+        "category": "fiscal",
+        "date":"12/11/2023"
+      },
+      {
+        "id":3,
+        "nom": "Ticket3",
+        "priority": "urgent",
+        "category": "fiscal",
+        "date":"12/11/2023"
+      },
+      {
+        "id":4,
+        "nom": "Ticket4",
+        "priority": "urgent",
+        "category": "fiscal",
+        "date":"12/11/2023"
+      },
+      {
+        "id":5,
+        "nom": "Ticket5",
+        "priority": "urgent",
+        "category": "fiscal",
+        "date":"12/11/2023"
+      },
+      {
+        "id":6,
+        "nom": "Ticket6",
+        "priority": "urgent",
+        "category": "fiscal",
+        "date":"12/11/2023"
+      },
+      {
+        "id":7,
+        "nom": "Ticket7",
+        "priority": "urgent",
+        "category": "fiscal",
+        "date":"12/11/2023"
+      },
+      {
+        "id":8,
+        "nom": "Ticket8",
+        "priority": "urgent",
+        "category": "fiscal",
+        "date":"12/11/2023"
+      },{
+        "id":9,
+        "nom": "Ticket9",
+        "priority": "urgent",
+        "category": "fiscal",
+        "date":"12/11/2023"
+      },
+      {
+        "id":10,
+        "nom": "Ticket10",
+        "priority": "urgent",
+        "category": "fiscal",
+        "date":"12/11/2023"
+      },
+      {
+        "id":11,
+        "nom": "Ticket11",
+        "priority": "urgent",
+        "category": "fiscal",
+        "date":"12/11/2023"
+      },
+      {
+        "id":12,
+        "nom": "Ticket2",
+        "priority": "urgent",
+        "category": "fiscal",
+        "date":"12/11/2023"
+      },
+      {
+        "id": 13,
+        "nom": "Ticket13",
+        "priority": "normale",
+        "category": "juridique",
+        "date": "12/11/2023"
+      },
+      {
+        "id": 14,
+        "nom": "Ticket14",
+        "priority": "haute",
+        "category": "informatique",
+        "date": "15/11/2023"
+      },
+      {
+        "id": 15,
+        "nom": "Ticket15",
+        "priority": "basse",
+        "category": "finances",
+        "date": "18/11/2023"
+      },
+      {
+        "id": 16,
+        "nom": "Ticket16",
+        "priority": "haute",
+        "category": "marketing",
+        "date": "21/11/2023"
+      },
+      {
+        "id": 17,
+        "nom": "Ticket17",
+        "priority": "normale",
+        "category": "informatique",
+        "date": "24/11/2023"
+      },
+      {
+        "id": 18,
+        "nom": "Ticket18",
+        "priority": "haute",
+        "category": "juridique",
+        "date": "27/11/2023"
+      },
+      {
+        "id": 19,
+        "nom": "Ticket19",
+        "priority": "normale",
+        "category": "finances",
+        "date": "30/11/2023"
+      },
+      {
+        "id": 20,
+        "nom": "Ticket20",
+        "priority": "basse",
+        "category": "marketing",
+        "date": "03/12/2023"
+      },
+      {
+        "id": 21,
+        "nom": "Ticket21",
+        "priority": "haute",
+        "category": "informatique",
+        "date": "06/12/2023"
+      },
+      {
+        "id": 22,
+        "nom": "Ticket22",
+        "priority": "normale",
+        "category": "finances",
+        "date": "09/12/2023"
+      },
+      {
+        "id": 23,
+        "nom": "Ticket23",
+        "priority": "haute",
+        "category": "marketing",
+        "date": "12/12/2023"
+      },
+      {
+        "id": 24,
+        "nom": "Ticket24",
+        "priority": "basse",
+        "category": "informatique",
+        "date": "15/12/2023"
+      },
+      {
+        "id": 25,
+        "nom": "Ticket25",
+        "priority": "normale",
+        "category": "marketing",
+        "date": "18/12/2023"
+      },
+      {
+        "id": 26,
+        "nom": "Ticket26",
+        "priority": "haute",
+        "category": "informatique",
+        "date": "21/12/2023"
+      },
+      {
+        "id": 27,
+        "nom": "Ticket27",
+        "priority": "basse",
+        "category": "finances",
+        "date": "24/12/2023"
+      }
+    ],
+    "category":
+    [
+     
+    {
+      "id":"1",
+      "name":"fiscal"
+    },
+    {
+      "id":"2",
+      "name":"social"
+    },
+    {
+      "id":"3",
+      "name":"juridique"
+    }
+   
+  ],
+  
+  "priority":[
+    {
+    "id":"1",
+    "priority":"all"
+  },
+  {
+    "id":"2",
+    "priority":"urgent"
+  },
+  {
+    "id":"3",
+    "priority":"medium"
+  },
+  {
+    "id":"4",
+    "priority":"normale"
+  },
+  {
+    "id":"5",
+    "category":"jnfkdsqj"
+  }],
+  "type-juridique":
+  [
+    {
+      "id":"1",
+      "type":"all"
+    },{
+    "id":"2",
+    "type":"loi organique"
+  },
+  {
+    "id":"3",
+    "type":"Constitution"
+  },
+  {
+    "id":"4",
+    "type":"décrets lois"
+  },
+  {
+    "id":"5",
+    "type":"loi"
+  },
+  {
+    "id":"6",
+    "type":"décret"
+  },{
+    "id":"7",
+    "type":"Circulaires"
+  },
+  {
+    "id":"8",
+    "type":"decision"
+  }
+  ,{
+    "id":"9",
+    "type":"note"
+  }
+  ,{
+    "id":"10",
+    "type":"code"
+  },
+  {
+    "id":"11",
+    "type":" judes predences"
+  }
+  ],
+  "theme-juridique":
+  [
+    {
+      "id":"1",
+      "theme":"all"
+    },{
+    "id":"2",
+    "theme":"droit commercial"
+  },
+  {
+    "id":"3",
+    "theme":"société commercial"
+  },
+  {
+    "id":"4",
+    "theme":"travail/social"
+  },
+  {
+    "id":"5",
+    "theme":"droit civil"
+  },
+  {
+    "id":"6",
+    "theme":"statut personnel"
+  },{
+    "id":"7",
+    "theme":"arbitrage"
+  },
+  {
+    "id":"8",
+    "theme":"droit pénal"
+  }
+  ,{
+    "id":"9",
+    "theme":"fiscal"
+  }
+  ,{
+    "id":"10",
+    "theme":"droit international privé"
+  },
+  {
+    "id":"11",
+    "theme":"droit international public"
+  }]
+  }

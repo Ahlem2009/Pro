@@ -1,0 +1,16 @@
+<div class="container mb-5">
+    <div class="card  mt-4">
+            <div class="text-center text-uppercase col-12 bg-light mb-2">
+                <h2>AVIS DES CLIENTS</h2>
+              
+            </div>
+           
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+            <div class="testimonial-item bg-white rounded p-4" *ngFor="let item of data">
+           
+                <app-carte-avis [item]= "item" ></app-carte-avis>
+
+            </div>           
+        </div>
+       
+</div>

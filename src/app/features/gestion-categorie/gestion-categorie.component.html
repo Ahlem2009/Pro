@@ -1,0 +1,129 @@
+<section class="section-intro padding-top-sm">
+    <div class="container">
+  <div class="container">
+    
+                           
+    <div class="row g-2 w-100  ">
+        <div class="col flex-grow ">
+          <div class="input-group  rounded-pill py-3 px-7">
+           
+            
+          <input type="text" placeholder="entrer un mot clé" class="form-control" name="">
+         
+          <div class="input-field second-wrap">
+              <button class="btn-primary  py-3 px-5" type="button"><i class="fa fa-search-plus" aria-hidden="true"></i>chercher</button>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link underline" routerLink="/recherche">Recherche avancé</a>
+          </div>
+          
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<div class="row" style="margin: 20px;">
+    <div class=" col-lg-10 col-md-6">
+    </div>
+    <div class=" col-lg-2 col-md-6">
+        <button class="btn btn-lg btn-outline-primary mb-2 me-2" routerLink="/ajouter-categorie" >ajouter catégorie</button>
+    </div>
+ </div> 
+<div class="card-header bg-primary text-white px-6">
+    <div class="d-flex justify-content-between align-items-center">
+        <div class="me-6">
+            <h2 class="card-title text-white mb-0">List categories</h2>
+        </div>
+
+    </div>
+</div>
+<div class="card-body p-6">
+    <div class="card-body p-6">
+   
+       
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    
+                    <th scope="col">ID</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Action</th>
+                  
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item1 of item1" >
+                  
+                    <td>
+                      {{item1.id}}
+                    </td>
+                    <td>{{item1.name}}</td>
+                    <td>{{item1.description}}</td>
+                   
+                    <td>
+                        <button class="btn btn-primary text-uppercase" style="margin-left: 10px;" ngbTooltip="modifier"><i class="fa fa-wrench" ></i></button>
+                        <button class="btn btn-primary text-uppercase" style="margin-left: 10px;"  ngbTooltip="supprimer"><i class="fa fa-trash" ></i></button>
+                       
+                    </td>
+                </tr>
+             
+            </tbody>
+        </table>
+        
+    </div>
+
+    <div class="row" >
+        <div class=" col-lg-2 col-md-6">
+            <button class="btn  btn-primary" routerLink="/modifier-type-theme" >modifier type ou théme</button>
+        </div>
+     </div> 
+
+     
+   <ng-template #content let-modal>
+	<div class="modal-header">
+		<h3 class="modal-title"> ajouter une catégorie</h3>
+		<button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+	</div>
+	<!-- <div class="container-xxl bg-light my-6 py-6 "> -->
+        <div class="card ">
+            <div class="container my-4 py-4 ">
+             <form>
+                    <div class="container my-4 py-4 ">
+                        <form>
+                            <div class="row g-3">
+                               
+            
+                                <div class="form-group col-12">
+                                    <h5>Nom:</h5>
+                                    <input class="form-control" rows="4" class="form-control" id="exampleInputName"
+                                        placeholder="Entrez le nom du categorie">
+                                </div>
+                                <div class="form-group col-12">
+                                    <h5>Description</h5>
+                                    <textarea class="form-control" rows="4" class="form-control" id="exampleInputName"
+                                        placeholder="écrire ici ..."></textarea>
+                                </div>
+                            
+                            </div>
+                    
+                        
+                        </form>
+                    </div>
+             </form>
+            </div>
+           </div>
+          <!-- </div> -->
+	<div class="modal-footer">
+    <button class="btn btn-primary text-uppercase" type="submit">Créer <i class="fa fa-plus"
+      style="color:white;"></i></button>
+		<!-- <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button> -->
+	</div>
+</ng-template>
+
+
+   <button class="btn btn-outline-primary mb-2 me-2" (click)="openModalDialogCustomClass(content)">
+	Ajouter Categorie
+</button>

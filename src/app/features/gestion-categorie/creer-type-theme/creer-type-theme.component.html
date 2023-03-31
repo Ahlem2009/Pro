@@ -1,0 +1,50 @@
+<div class="container-xxl bg-light my-6 py-6 ">
+	<div class="card">
+		<div class="container my-4 py-4 ">
+			<form>
+				<div class="row g-3">
+					<div class="col-12 mb-4">
+						<h3>modifier le Type ou le Théme</h3>
+					</div>
+					<div class="col-lg-6 col-md-12">
+						<label>Categorie :</label>
+							<select class="form-select" ngModel="selectedCategory" (ngModelChange)="filterStates()">
+								<option aria-selected="true">--select Categorie--</option>
+								<!-- <option *ngFor="let listCategory of listCategory" ngValue="category">{{listCategory.name}}</option> -->
+							</select>
+						
+						
+					</div>
+					<div class="col-lg-6 col-md-12">
+						<div class="form-group">
+                            <label for="exampleTheme">Théme :</label>
+                            <input type="Text" class="form-control" id="exampleTheme" placeholder="Entrer Théme">
+                    </div>
+						
+					</div>
+				</div>
+				<div class="row g-3 mt-1">
+					<div class="col-lg-6 col-md-12">
+                        <div class="form-group">
+                            <label for="exampleType">Type :</label>
+                            <input type="Text" class="form-control" id="exampleType" placeholder="Entrer Type">
+                    </div>
+							
+						
+					</div>
+				
+
+				
+
+
+					<div class=" col-lg-10 col-md-8"></div>
+					<div class=" col-lg-2 col-md-8">
+						<button class="btn btn-primary text-uppercase" type="submit">Ajouter <i class="fa fa-check"
+								style="color:write;"></i></button>
+					</div>
+
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

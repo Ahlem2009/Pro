@@ -1,0 +1,29 @@
+<article class="card-banner" style="margin:10px;" >
+    <div class="fact-item bg-light rounded h-70 p-3">
+      <div style="max-width: 900px">
+         <h2 >Title 1</h2>
+         <div class="row"><div class="col-8" >
+          <p >No matter how far along you are in your sophistication as an amateur astronomer, there is always one.</p>
+          <div class="row"><div class="col-6">reference:22222</div>
+          <div class="col-6">publié le:dd/mm/aaaa</div></div>
+        
+        </div>
+  
+          </div> 
+        </div> </div>  
+    </article>
+    <article class="card-banner" style="margin:10px;" *ngFor="let data of ListArticle" >
+      <div style="max-width: 900px">
+         <h2 >{{data.titre}}</h2>
+         <div class="row"><div class="col-8" >
+          <p >{{data.texte}}</p>
+          <div class="row"><div class="col-6">reference:{{data.reference}}</div>
+          <div class="col-6">publié le:{{data.date}}</div></div>
+        </div>
+          <div class="col-4"> <a href="#" class="btn btn-warning"> voir</a></div></div> 
+        </div>   
+    </article>
+  
+  
+  
+  

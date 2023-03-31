@@ -1,0 +1,61 @@
+<div class="container" >
+    <div class="card p-5 mt-5" >
+<!-- <fieldset  style="border: 1px solid rgb(212, 212, 212); margin: 5px 10px;">
+    <legend >TAGS </legend>
+       
+        <div method="get" role="search" action="." class="header-search-form show" >
+            <div class="header-search-combo" class="col-lg-12"><div class="search-vertical"><label for="ipSearch" class="visually-hidden">Recherchez :</label> <input type="search" autocomplete="off" spellcheck="false" name="ipSearch" id="ipSearch" placeholder="Événement, artiste ou lieu" class="header-search-field"> <ul id="autocomplete-results" class="autocomplete-results" style="display: none;"></ul></div> 
+           
+              </div></div>
+        
+        <div class="col-lg-6 col-md-12">
+            <div class="form-floating">
+                <select class="form-select" formControlName="Tags">
+                <option selected="" hidden="">Tous Tags</option>
+                <option value="1">loi</option>
+                <option value="2">guide</option>
+                <option value="3">douane</option>
+                </select>
+                <label>Tags</label>
+            </div></div>
+    </fieldset> -->
+  
+  
+  
+  
+            <fieldset> <div class="row">
+                            <div class="col-6">
+                          <div class="wrapper">
+                            <h3 class="title">
+                                ajouter tags
+                            </h3>
+
+
+                         <div class="col-lg-6 col-md-12">
+                            <div class="form-floating">
+                                  <select class="form-select"  (change)="onSelectedValueChange($event)" formControlName="TAGS"  >
+                                                        <option selected="" hidden="">tous ..</option>
+                                                        <option value="loi">loi</option>
+                                                        <option value="guide">guide</option>
+                                                        <option value="douane">douane</option>
+                                                    </select>
+                                                   
+                                                    <label>TAGS</label>
+                                                </div>
+                                            </div>
+                                          
+                            <div class="details">
+                                <p><span>10    </span>tags are remaining</p>
+                                
+                            </div>
+                          </div>
+                            </div></div>
+                            <div class="col-lg-6 col-md-12">
+                            <div class="form-floating"  >
+                                <input type="text" placeholder=".../.../.../"  class="form-control">
+                                
+                                <label> <a *ngFor="let tag of tags">{{ tag }} <i (click)="supprimerLi()" class="fa-sharp fa-solid fa-circle-xmark"></i></a> </label>
+                                <button>Remove all</button>
+                            </div>
+                            </div>
+                 </fieldset></div></div>
